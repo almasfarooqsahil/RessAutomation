@@ -1,0 +1,23 @@
+{
+  "name": "resswork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open --e2e --browser chrome --config baseUrl=https://ress-qa.loebigink.com/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "chai": "^4.3.10",
+    "cypress": "^13.13.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.7.0",
+    "lodash": "^4.17.21",
+    "mocha": "^10.2.0"
+  }
+}
